@@ -1,7 +1,9 @@
 # The Vrui FAQ
-# 有关Vrui工具包的问答
+
+> # 有关Vrui工具包的问答
 
 ## General Questions
+> ## 一般的问题
 
 ```
 1. What is this Vrui thing, anyway
@@ -11,6 +13,10 @@
 5. How is Vrui different from Ogre, Horde, Irrlicht, Sauerbraten, etc.?
 6. How is Vrui different from other VR toolkits like Cavelib, FreeVR, VR Juggler, etc.?
 ```
+ > <font color=#0099ff size=4 face="楷体">在大多数其他3D或VR工具包中，应用程序侧状态（如3D网格表示）和服务器端OpenGL状态（如纹理或缓冲区对象）都可以自由混合。在应用程序对象中，指向网格结构的指针可以直接跟着保持网格顶点的顶点缓冲对象的句柄。然而，这防止了对一个应用程序必须处理多个OpenGL上下文的环境的可移植性，其中单个网格结构可能由多个顶点缓冲区表示，每个顶点缓冲区用于不同的OpenGL上下文，具有不同的句柄。Vrui通过将应用程序侧状态与服务器端OpenGL状态进行严格分离，并将应用程序的服务器端状态的多个副本与应用程序侧状态的单个副本相关联，解决了此问题。Vrui API完全隐藏上下文和状态管理以及必要的状态复制。应用程序始终只能看到服务器端状态的单一副本，并且只在渲染需要此状态时。该过程在GLContextData文档中有详细描述。
+</font>
+
+
 ## User Questions
 
 ```
@@ -21,6 +27,7 @@
 11. Why does Vrui go all wonky when I use two monitors in a single-desktop setup?
 12. How do I set up multiple rendering windows, for example to drive multiple projectors?
 ```
+
 ## Developer Questions
 
 ```
@@ -34,11 +41,10 @@
 20. What if Vrui's extension manager does not support an OpenGL extension that I need?
 21. Can I use GLEW in Vrui applications?
 ```
+
 ## 1. What is this Vrui thing, anyway?
 
-Vrui (Virtual Reality User Interface) is a development toolkit for 3D graphics applications, with a strong focus on
-interactivity and immersive display environments. In the context of Vrui, immersive display environments mean
-displays consisting of one or more (large) stereoscopic screens, 3D head tracking, and 3D tracked input devices.
+Vrui (Virtual Reality User Interface) is a development toolkit for 3D graphics applications, with a strong focus on interactivity and immersive display environments. In the context of Vrui, immersive display nvironments mean displays consisting of one or more (large) stereoscopic screens, 3D head tracking, and 3D tracked input devices.
 Canonical examples of immersive display environments are CAVEs or head-mounted displays (HMDs), and, more
 recently, those composed of 3D TVs or consumer-level HMDs such as Oculus Rift, and gaming input devices.
 

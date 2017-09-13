@@ -1,13 +1,10 @@
-# Vrui VR Toolkit
-
-> # Vrui 虚拟现实工具集
+# Vrui VR Toolkit --- Vrui 虚拟现实工具集
 
 Tags: Vrui
 
+&emsp;&emsp;The task of a virtual reality (VR) development toolkit is to shield an application developer from the particular configuration of a VR environment, such that applications can be developed quickly and in a portable and scalable fashion. Three important parts of this overarching goal are encapsulation of the display environment, encapsulation of the distribution environment, and encapsulation of the input device environment. In more detail, these three partial goals are:
 
-The task of a virtual reality (VR) development toolkit is to shield an application developer from the particular configuration of a VR environment, such that applications can be developed quickly and in a portable and scalable fashion. Three important parts of this overarching goal are encapsulation of the display environment, encapsulation of the distribution environment, and encapsulation of the input device environment. In more detail, these three partial goals are:
-
-> 虚拟现实（VR）开发工具包的任务是保护应用程序开发人员不受VR环境的特殊配置的影响，从而使应用程序能够快速、灵活、可扩展地开发。这一总体目标的三个重要部分是：显示环境的封装、分布环境的封装和输入设备环境的封装。在更多的细节，这三个部分的目标是：
+> &emsp;&emsp;虚拟现实（VR）开发工具包的任务是保护应用程序开发人员不受VR环境的特殊配置的影响，从而使应用程序能够快速、灵活、可扩展地开发。这一总体目标的三个重要部分是：显示环境的封装、分布环境的封装和输入设备环境的封装。在更多的细节，这三个部分的目标是：
 
 Display abstraction
 A toolkit should provide OpenGL rendering contexts that are set up in such a fashion that rendering a model in user-specific coordinates will display that model on all rendering surfaces (monitors, screens,head-mounted displays) in correct head-tracked stereographic mode.
@@ -34,9 +31,7 @@ The Vrui VR toolkit aims to support fully scalable and portable applications tha
 Figure 1: The same Vrui application, run in a 4-sided CAVE (left) and on a laptop (right).
 ```
 
-## Project Goals
-
-> ## 项目目标
+## Project Goals --- 项目目标
 
 The main project goals were to design and implement a VR development toolkit for scalable and portable applications providing the following abstractions and additional features:
 > 主要项目的目标是为可扩展和便携式应用程序设计和实施VR开发工具包，提供以下抽象和附加功能：
@@ -62,9 +57,7 @@ The main project goals were to design and implement a VR development toolkit for
 A more complete list of goals and the architecture / design features implementing them can be found in the Vrui Manifesto.
 > Vrui宣言可以找到更完整的目标列表和实现它们的架构/设计功能。
 
-## Project Status
-
-> ## 项目状态
+## Project Status --- 项目状态
 
 At this point, all building blocks of the Vrui VR toolkit are in place and functional, and specific supported and tested environments are:
 > 在这一点上，Vrui VR工具包的所有构建块都已经到位，功能齐全，具体的支持和测试环境是：
