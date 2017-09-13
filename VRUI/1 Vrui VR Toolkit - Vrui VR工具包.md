@@ -2,6 +2,9 @@
 
 Tags: Vrui
 
+* auto-gen TOC:
+{:toc}
+
 &emsp;&emsp;The task of a virtual reality (VR) development toolkit is to shield an application developer from the particular configuration of a VR environment, such that applications can be developed quickly and in a portable and scalable fashion. Three important parts of this overarching goal are encapsulation of the display environment, encapsulation of the distribution environment, and encapsulation of the input device environment. In more detail, these three partial goals are:
 
 > &emsp;&emsp;虚拟现实（VR）开发工具包的任务是保护应用程序开发人员不受VR环境的特殊配置的影响，从而使应用程序能够快速、灵活、可扩展地开发。这一总体目标的三个重要部分是：显示环境的封装、分布环境的封装和输入设备环境的封装。在更多的细节，这三个部分的目标是：
