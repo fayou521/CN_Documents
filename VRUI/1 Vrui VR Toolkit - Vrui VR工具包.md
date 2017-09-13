@@ -7,6 +7,7 @@ Tags: Vrui
 > &emsp;&emsp;虚拟现实（VR）开发工具包的任务是保护应用程序开发人员不受VR环境的特殊配置的影响，从而使应用程序能够快速、灵活、可扩展地开发。这一总体目标的三个重要部分是：显示环境的封装、分布环境的封装和输入设备环境的封装。在更多的细节，这三个部分的目标是：
 
 Display abstraction
+
 A toolkit should provide OpenGL rendering contexts that are set up in such a fashion that rendering a model in user-specific coordinates will display that model on all rendering surfaces (monitors, screens,head-mounted displays) in correct head-tracked stereographic mode.
 > 显示抽象
 > 一个工具包应该提供OpenGL渲染的上下文，能够将用户指定的模型在所有渲染设备上（显示器，屏幕，头戴式设备），以正确的头部跟踪立体模式显示。
